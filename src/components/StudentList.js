@@ -46,8 +46,8 @@ export default function StudentList() {
                   <td>{student.address}</td>
                   <td>
                     <ButtonGroup>
-                      <Button size="sm" variant="outline-primary"><FontAwesomeIcon icon={faEdit}> Edit </FontAwesomeIcon></Button>{ ' '}
-                      <Button size="sm" variant="outline-danger"><FontAwesomeIcon icon={faTrash}> Delete </FontAwesomeIcon></Button>
+                      <Button variant="outline-primary"><FontAwesomeIcon icon={faEdit}> Edit </FontAwesomeIcon></Button>{ ' '}
+                      <Button variant="outline-danger"><FontAwesomeIcon icon={faTrash}> Delete </FontAwesomeIcon></Button>
                     </ButtonGroup>
                   </td>
                 </tr>
